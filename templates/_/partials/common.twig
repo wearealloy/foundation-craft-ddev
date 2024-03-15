@@ -1,0 +1,18 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+
+{% extends "_/partials/root" %}
+
+{# Add a dns prefetch header #}
+{% set baseUrl = url() %}
+{% header "Link: <#{baseUrl}>; rel=dns-prefetch;,<#{baseUrl}>; rel=preconnect; crossorigin;" %}
+
+{% block headScripts %}
+  {# include inline scripts in the head #}
+  {{ include("_/meta/head", ignore_missing = true, with_context = false) }}
+{% endblock %}
+
+{% block main %}
+  <main id="main-content">
+    {% block entryContent %}{% endblock %}
+  </main>
+{% endblock %}
