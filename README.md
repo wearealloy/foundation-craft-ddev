@@ -15,11 +15,11 @@ Run `ddev start` to create the container instance. This will create an instance 
 
 Run `ddev composer install`.
 
-Run `ddev craft install` to create your Craft CMS instance. Accept all defaults (in [square brackets]) unless you want to change defaults
+Run `ddev craft install` to create your Craft CMS instance. Accept DB password DB user and Site URL defaults [square brackets].
 
 Run `ddev npm install`
 
-After this the project should be running in your Orbstack image and it should be accesible to the url specified during craft instalation.
+After this the project should be running in your Orbstack image and it should be accesible with the following url (same as in craft installation) https://[project-name-in-step-1].ddev.site
 
 ## Commands
 
