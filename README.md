@@ -8,7 +8,10 @@ Make sure you have [Orbstack](https://orbstack.dev/) and [DDEV](https://ddev.com
 
 Clone the repo.
 
-Run `ddev start` to create container instance. This will create an instance using nginx, php 8.2, mysql 8 and composer.
+Go to `.ddev/` > `config.yaml` > change the name (line 1) of the container to the desire one (no spaces allowed). 
+Rename the project folder to use that same name.
+
+Run `ddev start` to create the container instance. This will create an instance using nginx, php 8.2, mysql 8 and composer.
 
 Rename `.env.example` to `.env`.
 
