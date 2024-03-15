@@ -13,7 +13,7 @@ Rename the project folder to use that same name.
 
 Run `ddev start` to create the container instance. This will create an instance using nginx, php 8.2, mysql 8 and composer.
 
-Rename `.env.example` to `.env`.
+Run `ddev composer install`.
 
 Run `ddev craft install` to create your Craft CMS instance. Accept all defaults (in [square brackets]) unless you want to change defaults
 
