@@ -4,6 +4,20 @@
 
 Make sure you have [Orbstack](https://orbstack.dev/) and [DDEV](https://ddev.com/get-started/) installed.
 
+## Stack
+
+- PHP 8.2 (this can be changed in config.yaml)
+- MySql 8
+- Craft CMS ^4
+- Vite
+- Tailwind CSS
+- Client fascing plugins included:
+  - craftcms/ckeditor
+  - verbb/hyper
+  - solspace/craft-freeform
+  - nystudio107/craft-seomatic
+  - verbb/navigation
+  
 ## Getting started
 
 Clone the repo.
