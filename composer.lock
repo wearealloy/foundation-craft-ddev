@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baa49706310e63ab925e5e01a20933f8",
+    "content-hash": "641787cdefdf7807bd511ffea0385ca0",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -531,11 +531,11 @@
         },
         {
             "name": "craftcms/ckeditor",
-            "version": "3.8.2",
+            "version": "3.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/2c3673c13562bf9bec1ec7d215afca1ea87d7b06",
-                "reference": "2c3673c13562bf9bec1ec7d215afca1ea87d7b06",
+                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/d18fc07fe7546fa6167e0629bd46c66e63c4a8a3",
+                "reference": "d18fc07fe7546fa6167e0629bd46c66e63c4a8a3",
                 "shasum": ""
             },
             "require": {
@@ -579,7 +579,7 @@
                 "docs": "https://github.com/craftcms/ckeditor/blob/master/README.md",
                 "rss": "https://github.com/craftcms/ckeditor/commits/master.atom"
             },
-            "time": "2024-03-19T20:26:40+00:00"
+            "time": "2024-03-06T22:45:28+00:00"
         },
         {
             "name": "craftcms/cms",

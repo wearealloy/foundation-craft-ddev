@@ -5,9 +5,9 @@
   "license": "MIT",
   "require": {
     "craftcms/cms": "^4.4.0",
-    "craftcms/ckeditor": "^3.8.1",
+    "craftcms/ckeditor": "3.8.1",
     "vlucas/phpdotenv": "^5.4.0",
-    "nystudio107/craft-vite": "^4.0.9",
+    "nystudio107/craft-vite": "4.0.9",
     "spicyweb/craft-quick-field": "^2.0.7",
     "verbb/hyper": "^1.1.21",
     "solspace/craft-freeform": "^5.0.0",
