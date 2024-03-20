@@ -20,7 +20,7 @@ Make sure you have [Orbstack](https://orbstack.dev/) and [DDEV](https://ddev.com
   
 ## Getting started
 
-Run `composer create-project heyblackmagic/foundation-craft-ddev ./[project-name] --no-install`.
+Run `composer create-project heyblackmagic/foundation-ddev ./[project-name] --no-install`.
 
 Go to `.ddev/` > `config.yaml` > change the name (line 1) of the container to the desire one (no spaces allowed).
 
