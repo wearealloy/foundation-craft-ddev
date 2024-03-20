@@ -1,5 +1,5 @@
 {
-    "name": "foundation",
+    "name": "foundation-ddev",
     "private": "true",
     "type": "module",
     "scripts": {
@@ -11,11 +11,11 @@
         "type": "git",
         "url": "git+https://github.com/wearealloy/foundation.git"
     },
-    "author": "Anuar Reyes <anuar@heyblackmagic.com>",
+    "author": "Jorge Sosa <jsosa@heyblackmagic.com>",
     "bugs": {
-        "url": "https://github.com/wearealloy/foundation/issues"
+        "url": "https://github.com/wearealloy/foundation-craft-ddev/issues"
     },
-    "homepage": "https://github.com/wearealloy/foundation#readme",
+    "homepage": "https://github.com/wearealloy/foundation-craft-ddev#readme",
     "dependencies": {
         "focus-visible": "^5.2.0"
     },
