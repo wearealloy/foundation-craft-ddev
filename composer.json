@@ -1,7 +1,8 @@
 {
   "name": "heyblackmagic/foundation-ddev",
   "type": "project",
-  "version": "1.0.0",
+  "description": "Craft CMS - DDEV scafold",
+  "license": "MIT",
   "require": {
     "craftcms/cms": "^4.4.0",
     "craftcms/ckeditor": "^3.8.1",
