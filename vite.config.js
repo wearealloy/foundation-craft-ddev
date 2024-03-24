@@ -1,5 +1,4 @@
 import ViteRestart from 'vite-plugin-restart';
-// import { defineConfig } from 'vite';
 import path from 'path';
 
 let port = 5173;
@@ -7,7 +6,7 @@ let port = 5173;
 /** @type {import('vite').UserConfig} */
 export default ({ command }) => ({
     base: command === 'serve' ? '' : '/dist/',
-    publicDir: 'src/public',
+    publicDir: path.resolve(__dirname, 'src/public'),
     build: {
         manifest: true,
         outDir: path.resolve(__dirname, 'web/dist/'),
@@ -24,7 +23,9 @@ export default ({ command }) => ({
     },
     plugins: [
         ViteRestart({
-            reload: ['templates/**/*'],
+            reload: [
+              path.resolve(__dirname, 'templates/**/*'),
+            ],
         }),
     ],
 });

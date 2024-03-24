@@ -4,4 +4,4 @@
 /vendor
 .DS_Store
 /node_modules
-public_html/dist
+/web/dist

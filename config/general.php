@@ -1,4 +1,5 @@
 <?php
+
 /**
  * General Configuration
  *
@@ -19,7 +20,7 @@ return GeneralConfig::create()
     // Enable Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
     ->devMode(App::env('DEV_MODE') ?? false)
     // Preload Single entries as Twig variables
-    ->preloadSingles()
+    ->preloadSingles(false)
     // Allow administrative changes
     ->allowAdminChanges(App::env('ALLOW_ADMIN_CHANGES') ?? false)
     // Disallow robots
@@ -28,11 +29,10 @@ return GeneralConfig::create()
     ->preventUserEnumeration()
     // Set the @webroot alias so the clear-caches command knows where to find CP resources
     ->aliases([
-        '@webroot' => dirname(__DIR__) . '/web',
+        '@webroot' => App::env('CRAFT_WEB_ROOT'),
         '@web' => App::env('PRIMARY_SITE_URL'),
         '@siteUrl' => App::env('PRIMARY_SITE_URL'),
         '@mediaPath' => App::env('FILESYSTEM_MEDIA_PATH'),
         '@mediaUrl' => App::env('FILESYSTEM_MEDIA_URL'),
         '@assets' => App::env('ASSETS'),
     ]);
-;
