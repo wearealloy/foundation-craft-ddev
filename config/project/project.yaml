@@ -1,0 +1,48 @@
+dateModified: 1717689683
+email:
+  fromEmail: anuar@heyblackmagic.com
+  fromName: 'Foundation Craft DDEV'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    6d2d155d-1851-46ba-b63d-6910b5e99b8b: 'Foundation Craft DDEV' # Foundation Craft DDEV
+    872fcb92-4e08-4ea7-97e1-94a29e6e64a4: 'Foundation Craft DDEV' # Foundation Craft DDEV
+    cf3d1994-b168-4337-a42c-7cfe225ef2e1: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.0.22
+  hyper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.12
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Foundation Craft DDEV'
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

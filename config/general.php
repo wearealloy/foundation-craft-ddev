@@ -12,6 +12,9 @@
 use craft\config\GeneralConfig;
 use craft\helpers\App;
 
+// Site URL without trailing slash
+$SITE_URL = rtrim(App::env('PRIMARY_SITE_URL'), '/');
+
 return GeneralConfig::create()
     // Set the default week start day for date pickers (0 = Sunday, 1 = Monday, etc.)
     ->defaultWeekStartDay(1)
@@ -35,4 +38,7 @@ return GeneralConfig::create()
         '@mediaPath' => App::env('FILESYSTEM_MEDIA_PATH'),
         '@mediaUrl' => App::env('FILESYSTEM_MEDIA_URL'),
         '@assets' => App::env('ASSETS'),
+        '@viteDevServerPublic' => $SITE_URL . ':' . App::env('VITE_DEV_PORT'),
+        '@viteServerPublic' => '@web/dist/',
+        '@viteDevServerInternal' => App::env('VITE_DEV_URL'),
     ]);
